@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "@fontsource/poppins";
+@import "@fontsource/inter";
+
+body {
+  background-color: #f5f5f5;
+  font-family: "Inter", sans-serif;
+  color: #1B1F3B;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+html {
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body {
+  @apply bg-soft text-navy dark:bg-[#1B1F3B] dark:text-white transition-colors duration-500;
+}

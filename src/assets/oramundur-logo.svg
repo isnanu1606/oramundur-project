@@ -1,0 +1,16 @@
+<!-- oramundur-logo.svg -->
+<svg width="160" height="160" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Lingkaran dasar -->
+  <circle cx="100" cy="100" r="95" fill="#1B1F3B" />
+
+  <!-- Huruf O -->
+  <circle cx="85" cy="100" r="28" stroke="#FF7B00" stroke-width="10" fill="none" />
+
+  <!-- Huruf M dengan bentuk panah -->
+  <path d="M105 130 L125 80 L145 130 L165 80" stroke="#FF7B00" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Tagline kecil -->
+  <text x="50%" y="185" font-size="16" text-anchor="middle" fill="#FF7B00" font-family="Poppins, sans-serif">
+    OraMundur Project
+  </text>
+</svg>
