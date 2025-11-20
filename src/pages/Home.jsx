@@ -7,13 +7,13 @@ export default function Home() {
       title: "TopUp Game",
       desc: "Platform top-up cepat dan terpercaya dengan antarmuka sederhana.",
       link: "https://topup.oramundur.id",
-      image: "https://source.unsplash.com/600x400/?gaming,interface",
+       image: "/topup-game.png", 
     },
     {
       title: "Smart School System",
       desc: "Sistem sekolah digital — Absensi QR, e-Library, AI guru asisten.",
       link: "https://smartschool.oramundur.id",
-      image: "https://source.unsplash.com/600x400/?education,technology",
+      image: "/smart-school-system.png",
     },
   ];
 
